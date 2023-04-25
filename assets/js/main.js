@@ -9,5 +9,6 @@ document.addEventListener("scroll",function(){
     navLanguage.classList.toggle("sticky__nav__language",window.scrollY > 0);
 })
 hamburgerBtn.addEventListener("click",function(){
+    nav.classList.toggle("sticky");
     hamburgerContent.classList.toggle("hamburger-open")
 })
